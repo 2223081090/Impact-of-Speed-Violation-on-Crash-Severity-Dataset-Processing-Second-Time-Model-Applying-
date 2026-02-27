@@ -1,0 +1,15 @@
+Rank,Model,Train Score (%),Test Score (%),Accuracy (%),Model Type ,Strength,Weakness,Remarks 
+Last,XGBoost,99.99%,-58.76%,−58.76%,Boosting (Ensemble),"High learning capability, handles complex patterns",Severe Overfitting,Not suitable in current tuning
+Lowest,SVR,-8.42%,-7.26%,-7.26%,Support Vector Regression,Works well on small & non-linear data,Poor performance without proper scaling/tuning,Severe Underfitting
+Lower Side,Ridge,13.85%,-31.05%,-31.05%,Linear Regression with L2 Regularization,"Reduces overfitting, stable model",Cannot capture complex non-linear patterns,Underfitting
+Last,Random Forest,84.44%,-19.25%,-19.25%,Ensemble (Bagging),"Handles non-linearity, reduces variance",Overfitting tendency,Moderate Overfitting
+Last,MLP,-31.06%,-60.37%,-60.37%,Neural Network,Can model complex non-linear patterns,Needs large data & tuning,Severe Underfitting
+Last,Linear Regression,13.96%,-35.87%,-35.87%,Supervised (Linear),"Simple, Fast, Easy to Interpret","Poor Generalization, Underfitting",Model underfits the data; not suitable for this dataset
+Last,LightGBM,84.82%,-28.36%,-28.36%,Supervised (Boosting),"High training performance, Fast training speed","Severe overfitting, Poor generalization",Model overfits the training data and fails to generalize on unseen data
+Third,Lasso,11.56%,-20.07%,-20.07%,Supervised (Regularized Linear),"Performs feature selection, Reduces overfitting","Underfitting, Poor predictive performance",Model shows weak learning ability and poor generalization
+Fifth,KNN,17.10%,-41.87%,-41.87%,Supervised (Instance-based),"Simple, Non-parametric","Sensitive to noise & scaling, Poor generalization",Model shows very poor test performance and underfitting behavior
+Fourth,Gradient Boosting,63.25%,-25.66%,-25.66%,Supervised (Boosting),"Good training fit, Handles complex patterns","Overfitting tendency, Poor test performance",Moderate training fit but fails to generalize on unseen data
+Sixth,Extra Trees,100.00%,-45.64%,-45.64%,Supervised (Ensemble),Perfect fit on training data,"Severe overfitting, Poor generalization",Model memorized training data completely but fails badly on unseen data
+Seventh,Decision Tree,100.00%,-236.40%,-236.40%,Supervised (Tree-based),Perfect fit on training data,"Extreme overfitting, Cannot generalize",Model memorized training data completely but fails catastrophically on unseen data
+Fifth,CatBoost,95.88%,-30.20%,-30.20%,Supervised (Boosting),"Excellent fit on training data, Handles categorical variables well","Overfitting, Poor generalization",Model shows strong training performance but fails to generalize on unseen data
+Second,AdaBoost,8.76%,-23.72%,-23.72%,Supervised (Boosting),"Simple, Easy to implement","Underfitting, Poor predictive performance",Model barely learns the data and generalizes poorly
