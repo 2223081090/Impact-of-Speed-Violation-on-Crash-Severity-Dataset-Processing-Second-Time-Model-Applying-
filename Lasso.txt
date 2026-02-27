@@ -1,0 +1,8 @@
+Model: Lasso
+==============================
+Train R²   : 0.1156
+Test  R²   : -0.2007
+Train RMSE : 226.72
+Test  RMSE : 220.13
+Train MAE  : 173.14
+Test  MAE  : 183.12

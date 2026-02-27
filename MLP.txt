@@ -1,0 +1,8 @@
+Model: MLP
+==============================
+Train R²   : -0.3106
+Test  R²   : -0.6037
+Train RMSE : 275.99
+Test  RMSE : 254.40
+Train MAE  : 188.18
+Test  MAE  : 180.91

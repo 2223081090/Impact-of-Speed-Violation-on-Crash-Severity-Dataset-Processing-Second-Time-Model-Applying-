@@ -1,0 +1,8 @@
+Model: DecisionTree
+==============================
+Train R²   : 1.0000
+Test  R²   : -2.3640
+Train RMSE : 0.00
+Test  RMSE : 368.46
+Train MAE  : 0.00
+Test  MAE  : 282.88

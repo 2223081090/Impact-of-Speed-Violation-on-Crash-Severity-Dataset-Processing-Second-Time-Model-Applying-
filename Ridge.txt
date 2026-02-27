@@ -1,0 +1,8 @@
+Model: Ridge
+==============================
+Train R²   : 0.1385
+Test  R²   : -0.3105
+Train RMSE : 223.75
+Test  RMSE : 229.98
+Train MAE  : 171.67
+Test  MAE  : 193.41

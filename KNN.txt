@@ -1,0 +1,8 @@
+Model: KNN
+==============================
+Train R²   : 0.1710
+Test  R²   : -0.4187
+Train RMSE : 219.50
+Test  RMSE : 239.28
+Train MAE  : 165.97
+Test  MAE  : 193.66

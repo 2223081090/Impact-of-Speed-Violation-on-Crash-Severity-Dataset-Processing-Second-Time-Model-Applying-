@@ -1,0 +1,8 @@
+Model: CatBoost
+==============================
+Train R²   : 0.9588
+Test  R²   : -0.3020
+Train RMSE : 48.92
+Test  RMSE : 229.23
+Train MAE  : 35.40
+Test  MAE  : 188.54

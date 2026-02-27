@@ -1,0 +1,8 @@
+Model: LightGBM
+==============================
+Train R²   : 0.8482
+Test  R²   : -0.2836
+Train RMSE : 93.93
+Test  RMSE : 227.60
+Train MAE  : 68.62
+Test  MAE  : 184.26

@@ -1,0 +1,8 @@
+Model: SVR
+==============================
+Train R²   : -0.0842
+Test  R²   : -0.0726
+Train RMSE : 251.02
+Test  RMSE : 208.06
+Train MAE  : 176.00
+Test  MAE  : 153.25

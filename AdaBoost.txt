@@ -1,0 +1,8 @@
+Model: AdaBoost
+==============================
+Train R²   : 0.0876
+Test  R²   : -0.2372
+Train RMSE : 230.27
+Test  RMSE : 223.45
+Train MAE  : 199.19
+Test  MAE  : 190.42

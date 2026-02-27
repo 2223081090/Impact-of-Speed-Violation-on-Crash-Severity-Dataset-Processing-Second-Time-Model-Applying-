@@ -1,0 +1,8 @@
+Model: RandomForest
+==============================
+Train R²   : 0.8444
+Test  R²   : -0.1925
+Train RMSE : 95.11
+Test  RMSE : 219.38
+Train MAE  : 71.70
+Test  MAE  : 178.48

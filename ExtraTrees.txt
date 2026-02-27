@@ -1,0 +1,8 @@
+Model: ExtraTrees
+==============================
+Train R²   : 1.0000
+Test  R²   : -0.4564
+Train RMSE : 0.00
+Test  RMSE : 242.44
+Train MAE  : 0.00
+Test  MAE  : 190.42

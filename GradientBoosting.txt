@@ -1,0 +1,8 @@
+Model: GradientBoosting
+==============================
+Train R²   : 0.6325
+Test  R²   : -0.2566
+Train RMSE : 146.15
+Test  RMSE : 225.20
+Train MAE  : 109.75
+Test  MAE  : 184.75
